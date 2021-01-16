@@ -1,0 +1,16 @@
+appId: hungtcs.brosse
+productName: brosse
+copyright: Copyright © 2021 hungtcs@outlook.com
+
+files:
+  - dist/**/*
+  - node_modules/reflect-metadata/Reflect.js
+
+directories:
+  output: dist
+
+linux:
+  target:
+    - AppImage
+  category: Utility
+  desktop: brosse.desktop

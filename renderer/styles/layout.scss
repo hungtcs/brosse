@@ -1,0 +1,10 @@
+
+body {
+  display: flex;
+  flex-flow: row nowrap;
+  > cicara-resizeable-container {
+    flex: 0 0 auto;
+    display: flex;
+    background-color: #EAEAEB;
+  }
+}

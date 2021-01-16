@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json.schemastore.org/nodemon",
+  "signal": "SIGINT",
+  "verbose": true,
+  "watch": [
+    "dist/main"
+  ],
+  "ext": "js",
+  "exec": "electron dist/main"
+}
